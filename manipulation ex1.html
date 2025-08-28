@@ -1,0 +1,14 @@
+<!--EX:1 DOM -Manipulation
+create h1 tag with ID"title" and set its value to hello world
+select the h1 tahg using document.getElementById()and change "helloworld" to "Bye world"-->
+
+<h1 id="title">
+    Hello World
+</h1>
+
+<script>
+//chang hello world to bye world
+    var h1=document.getElementById("title")
+    console.log(h1.textContent)
+    h1.textContent="Bye World"
+</script>
